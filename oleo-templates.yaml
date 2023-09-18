@@ -3,5 +3,7 @@ kind: Location
 metadata:
   name: oleo-templates
 spec:
-  type: url
-  target: http://github.com/terwetr/oleo-templates/oleo-templates.yaml
+  type: file
+  targets:
+    - ./exampo1/template.yaml
+    - ./exampo2/template.yaml
