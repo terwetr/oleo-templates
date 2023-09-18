@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: oleo-templates
+spec:
+  type: url
+  target: http://github.com/terwetr/oleo-templates/oleo-templates.yaml
