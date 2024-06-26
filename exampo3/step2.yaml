@@ -3,7 +3,7 @@ required:
   - repoUrl
 properties:
   repoUrl:
-    title: Repository Location
+    title: Repository Location Cobble
     type: string
     ui:field: RepoUrlPicker
     ui:options:
