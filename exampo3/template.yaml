@@ -13,7 +13,7 @@ spec:
   # used to gather input data for the execution of the template.
   parameters:
     $yaml: ./step1.yaml
-    $yaml: ./step2.yaml
+    # $yaml: ./step2.yaml
 
   steps:
     # Each step executes an action, in this case one templates files into the working directory.
