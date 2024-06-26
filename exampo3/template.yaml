@@ -12,10 +12,16 @@ spec:
   # These parameters are used to generate the input form in the frontend, and are
   # used to gather input data for the execution of the template.
   parameters:
+  
+    ## This does NOT work... (array element indicator, "-," inside the file, i.e., $yaml key repeated in same object) // reason: object must have unique keys
+    # $yaml: ./step1.yaml 
+    # $yaml: ./step2.yaml
+
+    ## This works... (array element indicator, "-," outside the file, i.e., $yaml in separate array slots)
     - $yaml: ./step1.yaml
     - $yaml: ./step2.yaml
 
-    ## This works...
+    ## This works... ($yaml nested in separate objects)
     # - title: Cobble in some steps
     #   required:
     #     - name
