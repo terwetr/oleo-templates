@@ -6,5 +6,6 @@ spec:
   type: url
   targets:
     - ./exampo1/template.yaml
+    - ./exampo2/template.yaml
     # - https://github.com/terwetr/oleo-templates/blob/main/exampo2/template.yaml
     # - https://github.com/terwetr/exampo3/blob/main/template.yaml
