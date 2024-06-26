@@ -1,11 +1,11 @@
-- title: Cobble in some steps
-  required:
-    - name
-  properties:
-    name:
-      title: Name
-      type: string
-      description: Unique name of the component
-      ui:autofocus: true
-      ui:options:
-        rows: 5
+title: Cobble in some steps
+required:
+  - name
+properties:
+  name:
+    title: Name
+    type: string
+    description: Unique name of the component
+    ui:autofocus: true
+    ui:options:
+      rows: 5
