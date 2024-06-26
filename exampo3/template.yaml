@@ -12,20 +12,21 @@ spec:
   # These parameters are used to generate the input form in the frontend, and are
   # used to gather input data for the execution of the template.
   parameters:
-    # $yaml: ./step1.yaml
-    # $yaml: ./step2.yaml
+    - $yaml: ./step1.yaml
+    - $yaml: ./step2.yaml
 
-    - title: Cobble in some steps
-      required:
-        - name
-      properties:
-        $yaml: ./prop1.yaml
+    ## This works...
+    # - title: Cobble in some steps
+    #   required:
+    #     - name
+    #   properties:
+    #     $yaml: ./prop1.yaml
         
-    - title: Cobble a location
-      required:
-        - repoUrl
-      properties:
-        $yaml: ./prop2.yaml
+    # - title: Cobble a location
+    #   required:
+    #     - repoUrl
+    #   properties:
+    #     $yaml: ./prop2.yaml
 
   steps:
     # Each step executes an action, in this case one templates files into the working directory.
